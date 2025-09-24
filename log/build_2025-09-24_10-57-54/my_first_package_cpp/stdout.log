@@ -1,0 +1,45 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/wonho/roscpp_test/src/my_first_package_cpp/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (0.8s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/wonho/roscpp_test/build/my_first_package_cpp
+[ 50%] [32mBuilding CXX object CMakeFiles/my_first_node_cpp.dir/src/my_first_node_cpp.cpp.o[0m
+[100%] [32m[1mLinking CXX executable my_first_node_cpp[0m
+[100%] Built target my_first_node_cpp
+-- Install configuration: ""
+-- Installing: /home/wonho/roscpp_test/install/my_first_package_cpp/lib/my_first_package_cpp/my_first_node_cpp
+-- Installing: /home/wonho/roscpp_test/install/my_first_package_cpp/share/ament_index/resource_index/package_run_dependencies/my_first_package_cpp
+-- Installing: /home/wonho/roscpp_test/install/my_first_package_cpp/share/ament_index/resource_index/parent_prefix_path/my_first_package_cpp
+-- Installing: /home/wonho/roscpp_test/install/my_first_package_cpp/share/my_first_package_cpp/environment/ament_prefix_path.sh
+-- Installing: /home/wonho/roscpp_test/install/my_first_package_cpp/share/my_first_package_cpp/environment/ament_prefix_path.dsv
+-- Installing: /home/wonho/roscpp_test/install/my_first_package_cpp/share/my_first_package_cpp/environment/path.sh
+-- Installing: /home/wonho/roscpp_test/install/my_first_package_cpp/share/my_first_package_cpp/environment/path.dsv
+-- Installing: /home/wonho/roscpp_test/install/my_first_package_cpp/share/my_first_package_cpp/local_setup.bash
+-- Installing: /home/wonho/roscpp_test/install/my_first_package_cpp/share/my_first_package_cpp/local_setup.sh
+-- Installing: /home/wonho/roscpp_test/install/my_first_package_cpp/share/my_first_package_cpp/local_setup.zsh
+-- Installing: /home/wonho/roscpp_test/install/my_first_package_cpp/share/my_first_package_cpp/local_setup.dsv
+-- Installing: /home/wonho/roscpp_test/install/my_first_package_cpp/share/my_first_package_cpp/package.dsv
+-- Installing: /home/wonho/roscpp_test/install/my_first_package_cpp/share/ament_index/resource_index/packages/my_first_package_cpp
+-- Installing: /home/wonho/roscpp_test/install/my_first_package_cpp/share/my_first_package_cpp/cmake/my_first_package_cppConfig.cmake
+-- Installing: /home/wonho/roscpp_test/install/my_first_package_cpp/share/my_first_package_cpp/cmake/my_first_package_cppConfig-version.cmake
+-- Installing: /home/wonho/roscpp_test/install/my_first_package_cpp/share/my_first_package_cpp/package.xml
