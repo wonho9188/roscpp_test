@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "my_publisher_cpp"
+			"path" : "move_turtle"
 		}
 	],
 	"backtrace" : 1,
@@ -822,7 +822,7 @@
 			]
 		}
 	],
-	"id" : "my_publisher_cpp::@6890427a1f51a3e7e1df",
+	"id" : "move_turtle::@6890427a1f51a3e7e1df",
 	"install" : 
 	{
 		"destinations" : 
@@ -1286,8 +1286,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "my_publisher_cpp",
-	"nameOnDisk" : "my_publisher_cpp",
+	"name" : "move_turtle",
+	"nameOnDisk" : "move_turtle",
 	"paths" : 
 	{
 		"build" : ".",

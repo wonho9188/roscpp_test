@@ -24,15 +24,15 @@ install(TARGETS my_first_node_cpp
   DESTINATION lib/${PROJECT_NAME})
 
 # my_publisher_cpp
-add_executable(my_publisher_cpp src/my_publisher_cpp.cpp)
-target_include_directories(my_publisher_cpp PUBLIC
+add_executable(move_turtle src/my_publisher_cpp.cpp)
+target_include_directories(move_turtle PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
   $<INSTALL_INTERFACE:include/${PROJECT_NAME}>)
-target_compile_features(my_publisher_cpp PUBLIC c_std_99 cxx_std_17)
+target_compile_features(move_turtle PUBLIC c_std_99 cxx_std_17)
 
-ament_target_dependencies(my_publisher_cpp rclcpp geometry_msgs)
+ament_target_dependencies(move_turtle rclcpp geometry_msgs)
 
-install(TARGETS my_publisher_cpp
+install(TARGETS move_turtle
   DESTINATION lib/${PROJECT_NAME})
   
 # my_subscription_cpp

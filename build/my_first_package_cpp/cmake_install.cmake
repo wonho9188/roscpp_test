@@ -63,27 +63,27 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/my_first_package_cpp/my_publisher_cpp" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/my_first_package_cpp/my_publisher_cpp")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/my_first_package_cpp/move_turtle" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/my_first_package_cpp/move_turtle")
     file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/my_first_package_cpp/my_publisher_cpp"
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/my_first_package_cpp/move_turtle"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/my_first_package_cpp" TYPE EXECUTABLE FILES "/home/wonho/roscpp_test/build/my_first_package_cpp/my_publisher_cpp")
-  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/my_first_package_cpp/my_publisher_cpp" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/my_first_package_cpp/my_publisher_cpp")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/my_first_package_cpp" TYPE EXECUTABLE FILES "/home/wonho/roscpp_test/build/my_first_package_cpp/move_turtle")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/my_first_package_cpp/move_turtle" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/my_first_package_cpp/move_turtle")
     file(RPATH_CHANGE
-         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/my_first_package_cpp/my_publisher_cpp"
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/my_first_package_cpp/move_turtle"
          OLD_RPATH "/opt/ros/jazzy/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/my_first_package_cpp/my_publisher_cpp")
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/my_first_package_cpp/move_turtle")
     endif()
   endif()
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/wonho/roscpp_test/build/my_first_package_cpp/CMakeFiles/my_publisher_cpp.dir/install-cxx-module-bmi-noconfig.cmake" OPTIONAL)
+  include("/home/wonho/roscpp_test/build/my_first_package_cpp/CMakeFiles/move_turtle.dir/install-cxx-module-bmi-noconfig.cmake" OPTIONAL)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
