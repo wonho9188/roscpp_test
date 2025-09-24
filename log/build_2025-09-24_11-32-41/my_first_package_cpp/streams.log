@@ -1,0 +1,54 @@
+[0.013s] Invoking command in '/home/wonho/roscpp_test/build/my_first_package_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wonho/addInEdu_devWs/basicClass/ros/ros7/install/my_first_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/wonho/roscpp_test/build/my_first_package_cpp -- -j16 -l16
+[0.050s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.313s] -- Found rclcpp: 28.1.11 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.347s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.357s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.370s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.384s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.449s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.450s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.509s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.560s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.590s] -- Found turtlesim: 1.8.3 (/opt/ros/jazzy/share/turtlesim/cmake)
+[0.656s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.732s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.732s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/wonho/roscpp_test/src/my_first_package_cpp/include>
+[0.732s] -- Configured cppcheck exclude dirs and/or files: 
+[0.733s] -- Added test 'lint_cmake' to check CMake code style
+[0.733s] -- Added test 'uncrustify' to check C / C++ code style
+[0.733s] -- Configured uncrustify additional arguments: 
+[0.734s] -- Added test 'xmllint' to check XML markup files
+[0.734s] -- Configuring done (0.7s)
+[0.747s] -- Generating done (0.0s)
+[0.752s] -- Build files have been written to: /home/wonho/roscpp_test/build/my_first_package_cpp
+[0.789s] [ 50%] [32mBuilding CXX object CMakeFiles/my_publisher_cpp.dir/src/my_publisher_cpp.cpp.o[0m
+[0.789s] [ 50%] Built target my_first_node_cpp
+[0.798s] [ 66%] [32mBuilding CXX object CMakeFiles/my_subscription_cpp.dir/src/my_subscription_cpp.cpp.o[0m
+[4.053s] [ 83%] [32m[1mLinking CXX executable my_publisher_cpp[0m
+[4.198s] [ 83%] Built target my_publisher_cpp
+[6.334s] [100%] [32m[1mLinking CXX executable my_subscription_cpp[0m
+[6.547s] [100%] Built target my_subscription_cpp
+[6.560s] Invoked command in '/home/wonho/roscpp_test/build/my_first_package_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wonho/addInEdu_devWs/basicClass/ros/ros7/install/my_first_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/wonho/roscpp_test/build/my_first_package_cpp -- -j16 -l16
+[6.572s] Invoking command in '/home/wonho/roscpp_test/build/my_first_package_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wonho/addInEdu_devWs/basicClass/ros/ros7/install/my_first_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/wonho/roscpp_test/build/my_first_package_cpp
+[6.580s] -- Install configuration: ""
+[6.580s] -- Up-to-date: /home/wonho/roscpp_test/install/my_first_package_cpp/lib/my_first_package_cpp/my_first_node_cpp
+[6.580s] -- Installing: /home/wonho/roscpp_test/install/my_first_package_cpp/lib/my_first_package_cpp/my_publisher_cpp
+[6.581s] -- Set non-toolchain portion of runtime path of "/home/wonho/roscpp_test/install/my_first_package_cpp/lib/my_first_package_cpp/my_publisher_cpp" to ""
+[6.581s] -- Installing: /home/wonho/roscpp_test/install/my_first_package_cpp/lib/my_first_package_cpp/my_subscription_cpp
+[6.585s] -- Set non-toolchain portion of runtime path of "/home/wonho/roscpp_test/install/my_first_package_cpp/lib/my_first_package_cpp/my_subscription_cpp" to ""
+[6.585s] -- Up-to-date: /home/wonho/roscpp_test/install/my_first_package_cpp/share/ament_index/resource_index/package_run_dependencies/my_first_package_cpp
+[6.586s] -- Up-to-date: /home/wonho/roscpp_test/install/my_first_package_cpp/share/ament_index/resource_index/parent_prefix_path/my_first_package_cpp
+[6.586s] -- Up-to-date: /home/wonho/roscpp_test/install/my_first_package_cpp/share/my_first_package_cpp/environment/ament_prefix_path.sh
+[6.586s] -- Up-to-date: /home/wonho/roscpp_test/install/my_first_package_cpp/share/my_first_package_cpp/environment/ament_prefix_path.dsv
+[6.586s] -- Up-to-date: /home/wonho/roscpp_test/install/my_first_package_cpp/share/my_first_package_cpp/environment/path.sh
+[6.586s] -- Up-to-date: /home/wonho/roscpp_test/install/my_first_package_cpp/share/my_first_package_cpp/environment/path.dsv
+[6.586s] -- Up-to-date: /home/wonho/roscpp_test/install/my_first_package_cpp/share/my_first_package_cpp/local_setup.bash
+[6.586s] -- Up-to-date: /home/wonho/roscpp_test/install/my_first_package_cpp/share/my_first_package_cpp/local_setup.sh
+[6.586s] -- Up-to-date: /home/wonho/roscpp_test/install/my_first_package_cpp/share/my_first_package_cpp/local_setup.zsh
+[6.586s] -- Up-to-date: /home/wonho/roscpp_test/install/my_first_package_cpp/share/my_first_package_cpp/local_setup.dsv
+[6.586s] -- Installing: /home/wonho/roscpp_test/install/my_first_package_cpp/share/my_first_package_cpp/package.dsv
+[6.587s] -- Up-to-date: /home/wonho/roscpp_test/install/my_first_package_cpp/share/ament_index/resource_index/packages/my_first_package_cpp
+[6.587s] -- Up-to-date: /home/wonho/roscpp_test/install/my_first_package_cpp/share/my_first_package_cpp/cmake/my_first_package_cppConfig.cmake
+[6.587s] -- Up-to-date: /home/wonho/roscpp_test/install/my_first_package_cpp/share/my_first_package_cpp/cmake/my_first_package_cppConfig-version.cmake
+[6.587s] -- Up-to-date: /home/wonho/roscpp_test/install/my_first_package_cpp/share/my_first_package_cpp/package.xml
+[6.587s] Invoked command in '/home/wonho/roscpp_test/build/my_first_package_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/wonho/addInEdu_devWs/basicClass/ros/ros7/install/my_first_package:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/wonho/roscpp_test/build/my_first_package_cpp

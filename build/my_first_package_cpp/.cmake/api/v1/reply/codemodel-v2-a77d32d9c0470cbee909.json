@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-52b6128b256293b71415.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "my_first_package_cpp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "my_first_node_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_first_node_cpp-3672644b12b8e4c029d4.json",
+					"name" : "my_first_node_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_first_package_cpp_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_first_package_cpp_uninstall-b0ac37d5227c11f4d944.json",
+					"name" : "my_first_package_cpp_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_publisher_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_publisher_cpp-6ad2973607876f9a7cbf.json",
+					"name" : "my_publisher_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_subscription_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_subscription_cpp-9a4134ac890a37f560fc.json",
+					"name" : "my_subscription_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-572f3bd546b6d5b01262.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/wonho/roscpp_test/build/my_first_package_cpp",
+		"source" : "/home/wonho/roscpp_test/src/my_first_package_cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -211,6 +211,19 @@ my_first_node_cpp/fast:
 .PHONY : my_first_node_cpp/fast
 
 #=============================================================================
+# Target rules for targets named my_publisher_cpp
+
+# Build rule for target.
+my_publisher_cpp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 my_publisher_cpp
+.PHONY : my_publisher_cpp
+
+# fast build rule for target.
+my_publisher_cpp/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_publisher_cpp.dir/build.make CMakeFiles/my_publisher_cpp.dir/build
+.PHONY : my_publisher_cpp/fast
+
+#=============================================================================
 # Target rules for targets named my_subscription_cpp
 
 # Build rule for target.
@@ -246,6 +259,30 @@ src/my_first_node_cpp.s: src/my_first_node_cpp.cpp.s
 src/my_first_node_cpp.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_first_node_cpp.dir/build.make CMakeFiles/my_first_node_cpp.dir/src/my_first_node_cpp.cpp.s
 .PHONY : src/my_first_node_cpp.cpp.s
+
+src/my_publisher_cpp.o: src/my_publisher_cpp.cpp.o
+.PHONY : src/my_publisher_cpp.o
+
+# target to build an object file
+src/my_publisher_cpp.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_publisher_cpp.dir/build.make CMakeFiles/my_publisher_cpp.dir/src/my_publisher_cpp.cpp.o
+.PHONY : src/my_publisher_cpp.cpp.o
+
+src/my_publisher_cpp.i: src/my_publisher_cpp.cpp.i
+.PHONY : src/my_publisher_cpp.i
+
+# target to preprocess a source file
+src/my_publisher_cpp.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_publisher_cpp.dir/build.make CMakeFiles/my_publisher_cpp.dir/src/my_publisher_cpp.cpp.i
+.PHONY : src/my_publisher_cpp.cpp.i
+
+src/my_publisher_cpp.s: src/my_publisher_cpp.cpp.s
+.PHONY : src/my_publisher_cpp.s
+
+# target to generate assembly for a file
+src/my_publisher_cpp.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/my_publisher_cpp.dir/build.make CMakeFiles/my_publisher_cpp.dir/src/my_publisher_cpp.cpp.s
+.PHONY : src/my_publisher_cpp.cpp.s
 
 src/my_subscription_cpp.o: src/my_subscription_cpp.cpp.o
 .PHONY : src/my_subscription_cpp.o
@@ -287,10 +324,14 @@ help:
 	@echo "... my_first_package_cpp_uninstall"
 	@echo "... uninstall"
 	@echo "... my_first_node_cpp"
+	@echo "... my_publisher_cpp"
 	@echo "... my_subscription_cpp"
 	@echo "... src/my_first_node_cpp.o"
 	@echo "... src/my_first_node_cpp.i"
 	@echo "... src/my_first_node_cpp.s"
+	@echo "... src/my_publisher_cpp.o"
+	@echo "... src/my_publisher_cpp.i"
+	@echo "... src/my_publisher_cpp.s"
 	@echo "... src/my_subscription_cpp.o"
 	@echo "... src/my_subscription_cpp.i"
 	@echo "... src/my_subscription_cpp.s"
